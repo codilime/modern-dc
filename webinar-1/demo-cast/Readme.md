@@ -1,5 +1,5 @@
-#Demo steps
-##SETUP
+# Demo steps
+## SETUP
 
 The purpose of this part is to emulate boot up process of BMS1 (by starting the frr server) as demonstrate how it affects whole topology.
 
@@ -37,7 +37,7 @@ BMS2:
 `ip route`
 
 
-##COMMUNICATION
+## COMMUNICATION
 
 The purpose of this part is to show the HTTP communication between loopbacks of BMS1 and BMS2 (server). Traffic should be load balanced.
 
@@ -54,7 +54,7 @@ BMS2:
 `tcpdump -ni enp3s0 port 80`
 
 
-##LEGACY
+## LEGACY
 
 The purpose of this part is to show the HTTP communication between the legacy BNS and BMS2 (server). Traffic will not be load balanced (to not saturate the uplinks as the legacy BMS is only connected to Leaf1).
 
@@ -67,7 +67,7 @@ BMS2:
 BMS2:
 `tcpdump -ni enp3s0 port 80`
 
-##FAILURE DETECTION:
+## FAILURE DETECTION:
 
 The purpose of this part is to show fast BFD failover. Link used to communicate between BMS1 and legacy BMS will be shutdown, forcing packets to route via spine1 switch.
 
@@ -89,7 +89,7 @@ BMS1:
 BMS1:
 `ip route get to 192.168.101.20`
 
-##Extra LOAD BALANCE
+## Extra LOAD BALANCE
 
 The purpose of this part is to show Anycast load balance. Legacy BMS will be access share IP 192.168.0.250. HTTP request will be shared between BMS1 and BMS2
 
