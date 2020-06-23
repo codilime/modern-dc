@@ -62,10 +62,10 @@ legacy-BMS:
 `watch -n 1 curl -s http://10.0.2.2`
 
 BMS2:
-`tcpdump -ni enp2s0 port 80`
+`tcpdump -ni enp2s0 port 80 and host 192.168.101.20`
 
 BMS2:
-`tcpdump -ni enp3s0 port 80`
+`tcpdump -ni enp3s0 port 80 and host 192.168.101.20`
 
 ## FAILURE DETECTION:
 
