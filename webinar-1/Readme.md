@@ -9,4 +9,4 @@
 - *pdf* - presentation in PDF format
 - *demo-cast* - asciinema of demo of presented solution
 
-Whole webinar can be seen under the YouTube link: <https://youtu.be/oC_hc_JBEvk>
+Whole webinar can be seen under the YouTube link: <https://www.youtube.com/watch?v=9g4SYwxfY9E>
