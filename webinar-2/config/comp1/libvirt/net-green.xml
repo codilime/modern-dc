@@ -1,0 +1,10 @@
+<network>
+  <name>green</name>
+  <forward mode='route'/>
+  <bridge name='green-l2' stp='off' delay='0' />
+  <ip address='10.2.0.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start="10.2.0.10" end="10.2.0.100"/>
+    </dhcp>
+  </ip>
+</network>

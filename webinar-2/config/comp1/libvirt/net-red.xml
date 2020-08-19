@@ -1,0 +1,10 @@
+<network>
+  <name>red</name>
+  <forward mode='route'/>
+  <bridge name='red-l2' stp='off' delay='0' />
+  <ip address='10.1.0.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start="10.1.0.10" end="10.1.0.100"/>
+    </dhcp>
+  </ip>
+</network>

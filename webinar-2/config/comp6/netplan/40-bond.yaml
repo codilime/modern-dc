@@ -1,0 +1,18 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens4:
+      dhcp4: no
+    ens5:
+      dhcp4: no
+  bonds:
+    bond0:
+      dhcp4: no
+      interfaces: [ ens4, ens5 ]
+      addresses: [10.1.0.200/24]
+      gateway4: 10.1.0.1
+      parameters:
+        mode: 802.3ad
+        lacp-rate: fast
+        #mii-monitor-interval: 1
