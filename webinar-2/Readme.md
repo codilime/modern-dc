@@ -7,4 +7,4 @@
 - *presentation* - presentation in PDF format
 - *demo-cast* - asciinema of demo of presented solution
 
-Whole webinar can be seen under the YouTube link: 
+Whole webinar can be seen under the YouTube link: https://www.youtube.com/watch?v=_wcdqwed3jU
