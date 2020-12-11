@@ -40,8 +40,19 @@ Presentation also contains a demo showing how the solution works in practice.
 
 All resources are placed in `webinar-2` directory.
 
-*Stay tuned for the next webinars in this series!*
-
 ## Part 3 - Seamless and secure connectivity for edge computing and hybrid clouds
 
-This GitHub repository stores all the files and configurations mentioned during the webinars.
+In the third part we focus on connectivity with resources located beyond the local data center.
+
+We will look at how we can connect on-prem services with those running in a public cloud, allowing for more flexibility and simplifying a number of migration scenarios. We will also show how it’s possible to securely extend Layer 2 and Layer 3 connectivity to IoT devices and Edge Computing servers located somewhere online. A similar concept can also be applied in communications with branch offices. We also show that inexpensive consumer routers can be successfully used for such scenarios.
+
+In this webinar the speakers will explain:
+
+1. How to connect resources in overlay with those in underlay and Internet
+2. How to extend Layer 2 connectivity to public clouds
+3. How to securely connect IoT devices and an Edge Computing server with a DC
+4. What EVPN can do for your branch offices
+
+Presentation also contains a demo showing how the solution works in practice.
+
+All resources are placed in `webinar-3` directory.

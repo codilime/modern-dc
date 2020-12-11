@@ -1,0 +1,14 @@
+<network xmlns:dnsmasq='http://libvirt.org/schemas/network/dnsmasq/1.0'>
+  <name>red</name>
+  <forward mode='route'/>
+  <bridge name='red-l2' stp='off' delay='0'/>
+  <mac address='00:00:00:11:11:10'/>
+  <ip address='10.1.0.1' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='10.1.0.10' end='10.1.0.100'/>
+    </dhcp>
+  </ip>
+  <dnsmasq:options>
+    <dnsmasq:option value="dhcp-broadcast"/>
+  </dnsmasq:options>
+</network>
