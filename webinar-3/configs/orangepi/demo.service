@@ -1,0 +1,10 @@
+[Unit]
+Description=Webinar demo server
+
+[Service]
+WorkingDirectory=/root/demo
+ExecStart=/bin/ip vrf exec green /root/demo/codi.py
+
+[Install]
+WantedBy=multi-user.target
+
